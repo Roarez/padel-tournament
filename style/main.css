@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #dcd9dc;
+  color: #554c43;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; 
+}
+
+body {
+	margin: 10px 0; 
+}
+
+h1.title {
+	font-size: 80px;
+	font-weight: bold;
+	margin: 0;
+	display: block;
+	text-align: center;
+	color: #005030;
+}
+
+.container {
+  	width: 900px;
+	margin: 0 auto;
+}
+
+input {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+table, th {
+	border: 2px solid black;
+	border-spacing: 1px;
+}
+
+table {	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	background-color: lightgrey;
+}
+
+td {
+	border: 1px solid black;
+	border-spacing: 1px;
+	text-align: center;
+}
+
+table tr:nth-child(even) {
+	color: black;
+	background-color: lightgrey;
+}
+
+table tr:nth-child(odd) {
+	color: black;
+	background-color: darkgrey;
+}
+
+table th {
+	color: black;
+	background-color: darkgrey;
+}
+
+table#score-table th, table#score-table td {
+	padding: 5px;
+}
+
+.submit-buttons {
+	font-weight: bolder;
+	background-color: darkgrey;
+	border-radius: 12px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.submit-buttons:hover {
+	background-color: lightgrey;
+	color: white;
+}

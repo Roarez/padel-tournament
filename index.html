@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Padel 8 Player Tournament</title>
+	<link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1 class="title">Padel 8 Player Tournament</h1>
+	<div class="container">
+		<!--Players:
+		<input type="radio" name="num-players" value="4"> 4
+		<input type="radio" name="num-players" value="8" checked> 8
+		<input type="radio" name="num-players" value="12"> 12<br>
+		Fields:
+		<input type="number" name="quantity" min="1" max="3" id="num-fields">
+		<input type="submit" onclick="updateInputValues()" value="update">-->
+		<strong>Player Names:</strong> (enter player names into the spaces bellow and press "randomize teams" to get started)<br>
+		<div class="input-section" id="player-names">
+
+		</div>
+		<strong>Matchups:</strong><br>
+		<table class="matches" id="match-table" style="width:100%">
+			<tr>
+				<th colspan="6">Field 1 (Team 1 vs Team 2)</th>
+				<th colspan="6">Field 2 (Team 3 vs Team 4)</th>
+			</tr> 
+			<tr>
+				<th colspan="2">Team 1</th>
+				<th>Score</th>
+				<th colspan="2">Team 2</th> 
+				<th>Score</th>
+				<th colspan="2">Team 3</th>
+				<th>Score</th>
+				<th colspan="2">Team 4</th>
+				<th>Score</th>
+			</tr>
+		</table>
+		<div id="score-button"></div>
+		<strong>Scoreboard:</strong><br>
+		<table class="scoring-section" id="score-table">
+			<tr>
+				<th>#P</th>
+				<th>Player</th>
+				<th>Score</th>
+			</tr>
+		</table>		
+		<p class="how-to-play">
+			
+		</p>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
